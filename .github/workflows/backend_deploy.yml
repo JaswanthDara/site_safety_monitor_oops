@@ -19,7 +19,12 @@ jobs:
         with:
           host: "3.27.191.208"
           username: "ubuntu"
-          key: "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
+          port: 22
+          source: "node_backend/*"
+          target: "/home/ubuntu/site_safety_monitor"
+          key: |
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
 NhAAAAAwEAAQAAAgEAuzd4LDD491HJ5bbA6qjoVkQ8XGiSqOPfyZ/upk/hLvl5pphXGBvJ
 G9pvYx0A9jcELjT9y3RxQbcJS7HSAf23M9+TRGRNx4GR+GcarvqqmLeKsSzhHKPnfR2bzw
 p9vJjcO5ioloyGDvGhReITCFFeDG8aZ/zLJXPQceAri8v5FO2b3gdjNUDaAzgjNExtp3j6
@@ -65,17 +70,18 @@ e/e1Cgn3o4XL2WUBtCOOlgAndgnz+T6NYwx7ynb9Txty7KC4XLDlsVGQAKOqOakFVTF0Wa
 +FECf65leEQzcv5vYHsCkO7QSJ8MC0cIpRZz1nu4yRtMydtk+v8sQKntGMjcGMYl3+IyWE
 iDdydK6O2pwO7o6polCDn1vPdVlTG+8XzejEYEipvOLm/R9Qq9EXdz+bhcM6OcygeUZZdD
 Y61VI0zPlRrk561mxrIsrkSOKzu4BGZqsq2C6yXLuPywKrzNQYj4QEuWIQtMC5zhEdX4G6
-6VNzDEwpmv/9AAAAFE4xMjMxMjQ1MkBxdXQuZWR1LmF1AQIDBAUG"
-          port: 22
-          source: "node_backend/*"
-          target: "/home/ubuntu/site_safety_monitor"
+6VNzDEwpmv/9AAAAFE4xMjMxMjQ1MkBxdXQuZWR1LmF1AQIDBAUG
+            -----END OPENSSH PRIVATE KEY-----
 
       - name: SSH into EC2 and restart backend
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: "3.27.191.208"
           username: "ubuntu"
-          key: "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
+          port: 22
+          key: |
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
 NhAAAAAwEAAQAAAgEAuzd4LDD491HJ5bbA6qjoVkQ8XGiSqOPfyZ/upk/hLvl5pphXGBvJ
 G9pvYx0A9jcELjT9y3RxQbcJS7HSAf23M9+TRGRNx4GR+GcarvqqmLeKsSzhHKPnfR2bzw
 p9vJjcO5ioloyGDvGhReITCFFeDG8aZ/zLJXPQceAri8v5FO2b3gdjNUDaAzgjNExtp3j6
@@ -121,8 +127,8 @@ e/e1Cgn3o4XL2WUBtCOOlgAndgnz+T6NYwx7ynb9Txty7KC4XLDlsVGQAKOqOakFVTF0Wa
 +FECf65leEQzcv5vYHsCkO7QSJ8MC0cIpRZz1nu4yRtMydtk+v8sQKntGMjcGMYl3+IyWE
 iDdydK6O2pwO7o6polCDn1vPdVlTG+8XzejEYEipvOLm/R9Qq9EXdz+bhcM6OcygeUZZdD
 Y61VI0zPlRrk561mxrIsrkSOKzu4BGZqsq2C6yXLuPywKrzNQYj4QEuWIQtMC5zhEdX4G6
-6VNzDEwpmv/9AAAAFE4xMjMxMjQ1MkBxdXQuZWR1LmF1AQIDBAUG"
-          port: 22
+6VNzDEwpmv/9AAAAFE4xMjMxMjQ1MkBxdXQuZWR1LmF1AQIDBAUG
+            -----END OPENSSH PRIVATE KEY-----
           script: |
             cd /home/ubuntu/site_safety_monitor
             npm install
