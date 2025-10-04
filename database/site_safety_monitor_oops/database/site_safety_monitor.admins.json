@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "68dd3c8670313505a82a6d16"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c45"
+  },
+  "permissions": [
+    "manage_users",
+    "view_reports",
+    "manage_projects",
+    "manage_incidents",
+    "manage_equipment",
+    "manage_hazards"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T14:36:54.795Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T14:36:54.795Z"
+  },
+  "__v": 0
+}]

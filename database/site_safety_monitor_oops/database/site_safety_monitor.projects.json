@@ -1,0 +1,669 @@
+[{
+  "_id": {
+    "$oid": "68dd00000000000000000001"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c48"
+  },
+  "name": "Central Bridge Construction",
+  "location": "London, UK",
+  "startDate": {
+    "$date": "2025-01-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-30T00:00:00.000Z"
+  },
+  "environment": "construction",
+  "riskLevel": "high",
+  "safetyRequirements": [
+    "Helmet",
+    "Safety Vest",
+    "Boots"
+  ],
+  "hazards": [
+    "Falling Objects",
+    "Heavy Machinery"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.663Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000002"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c48"
+  },
+  "name": "Greenfield Factory Setup",
+  "location": "Manchester, UK",
+  "startDate": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-08-15T00:00:00.000Z"
+  },
+  "environment": "factory",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Gloves",
+    "Helmet",
+    "Mask"
+  ],
+  "hazards": [
+    "Chemical Exposure",
+    "Electrical"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.714Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.714Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000003"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c4b"
+  },
+  "name": "Westside Warehouse Expansion",
+  "location": "Birmingham, UK",
+  "startDate": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-09-25T00:00:00.000Z"
+  },
+  "environment": "warehouse",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest"
+  ],
+  "hazards": [
+    "Slips",
+    "Forklift"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.720Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.720Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000004"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c4b"
+  },
+  "name": "Riverside Outdoor Renovation",
+  "location": "Liverpool, UK",
+  "startDate": {
+    "$date": "2025-01-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-05-15T00:00:00.000Z"
+  },
+  "environment": "outdoor",
+  "riskLevel": "low",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Weather",
+    "Slips"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.727Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000005"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c4e"
+  },
+  "name": "North Industrial Complex",
+  "location": "Leeds, UK",
+  "startDate": {
+    "$date": "2025-04-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  },
+  "environment": "factory",
+  "riskLevel": "high",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest",
+    "Gloves"
+  ],
+  "hazards": [
+    "Heavy Machinery",
+    "Chemical Exposure"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.735Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000006"
+  },
+  "user": {
+    "$oid": "68dd02b83ce4b67151390c4e"
+  },
+  "name": "City Center Plaza Construction",
+  "location": "London, UK",
+  "startDate": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "environment": "construction",
+  "riskLevel": "high",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest",
+    "Gloves"
+  ],
+  "hazards": [
+    "Falling Objects",
+    "Heavy Machinery"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.739Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000007"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c51"
+  },
+  "name": "Eastside Warehouse Refurbishment",
+  "location": "Bristol, UK",
+  "startDate": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-11-30T00:00:00.000Z"
+  },
+  "environment": "warehouse",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest"
+  ],
+  "hazards": [
+    "Slips",
+    "Forklift"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.743Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000008"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c51"
+  },
+  "name": "Southside Outdoor Landscaping",
+  "location": "Oxford, UK",
+  "startDate": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "environment": "outdoor",
+  "riskLevel": "low",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Weather",
+    "Slips"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.748Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000009"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c54"
+  },
+  "name": "TechPark Factory Construction",
+  "location": "Cambridge, UK",
+  "startDate": {
+    "$date": "2025-03-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-09-05T00:00:00.000Z"
+  },
+  "environment": "factory",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves",
+    "Vest"
+  ],
+  "hazards": [
+    "Heavy Machinery",
+    "Chemical Exposure"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd0000000000000000000a"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c54"
+  },
+  "name": "Hilltop Outdoor Observation Deck",
+  "location": "York, UK",
+  "startDate": {
+    "$date": "2025-01-10T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  },
+  "environment": "outdoor",
+  "riskLevel": "low",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Weather",
+    "Slips"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.757Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd0000000000000000000b"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c57"
+  },
+  "name": "Riverbank Dock Renovation",
+  "location": "Norwich, UK",
+  "startDate": {
+    "$date": "2025-02-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-07-15T00:00:00.000Z"
+  },
+  "environment": "construction",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest"
+  ],
+  "hazards": [
+    "Falling Objects",
+    "Water Hazard"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd0000000000000000000c"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c57"
+  },
+  "name": "South Factory Expansion",
+  "location": "Sheffield, UK",
+  "startDate": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-09-20T00:00:00.000Z"
+  },
+  "environment": "factory",
+  "riskLevel": "high",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves",
+    "Vest"
+  ],
+  "hazards": [
+    "Heavy Machinery",
+    "Chemical Exposure"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.764Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd0000000000000000000d"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c5a"
+  },
+  "name": "Northside Warehouse Upgrade",
+  "location": "Coventry, UK",
+  "startDate": {
+    "$date": "2025-04-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-08-30T00:00:00.000Z"
+  },
+  "environment": "warehouse",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest"
+  ],
+  "hazards": [
+    "Slips",
+    "Forklift"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.767Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd0000000000000000000e"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c5a"
+  },
+  "name": "East Park Outdoor Trails",
+  "location": "Bath, UK",
+  "startDate": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  },
+  "environment": "outdoor",
+  "riskLevel": "low",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Weather",
+    "Slips"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd0000000000000000000f"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c5d"
+  },
+  "name": "Central Factory Maintenance",
+  "location": "Liverpool, UK",
+  "startDate": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-12-10T00:00:00.000Z"
+  },
+  "environment": "factory",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Chemical Exposure",
+    "Heavy Machinery"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000010"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c5d"
+  },
+  "name": "Westside Construction Complex",
+  "location": "Bristol, UK",
+  "startDate": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-07-30T00:00:00.000Z"
+  },
+  "environment": "construction",
+  "riskLevel": "high",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest",
+    "Gloves"
+  ],
+  "hazards": [
+    "Falling Objects",
+    "Heavy Machinery"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000011"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c60"
+  },
+  "name": "North Outdoor Recreation Area",
+  "location": "Leicester, UK",
+  "startDate": {
+    "$date": "2025-03-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  },
+  "environment": "outdoor",
+  "riskLevel": "low",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Weather",
+    "Slips"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.780Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000012"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c60"
+  },
+  "name": "South Warehouse Logistics Upgrade",
+  "location": "Exeter, UK",
+  "startDate": {
+    "$date": "2025-04-10T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-09-10T00:00:00.000Z"
+  },
+  "environment": "warehouse",
+  "riskLevel": "medium",
+  "safetyRequirements": [
+    "Helmet",
+    "Vest",
+    "Gloves"
+  ],
+  "hazards": [
+    "Slips",
+    "Forklift"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000013"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c63"
+  },
+  "name": "East Factory Renovation Project",
+  "location": "Norwich, UK",
+  "startDate": {
+    "$date": "2025-05-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "environment": "factory",
+  "riskLevel": "high",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves",
+    "Vest"
+  ],
+  "hazards": [
+    "Chemical Exposure",
+    "Heavy Machinery"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68dd00000000000000000014"
+  },
+  "user": {
+    "$oid": "68dd02b93ce4b67151390c63"
+  },
+  "name": "City Outdoor Amphitheater",
+  "location": "Oxford, UK",
+  "startDate": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-09-30T00:00:00.000Z"
+  },
+  "environment": "outdoor",
+  "riskLevel": "low",
+  "safetyRequirements": [
+    "Helmet",
+    "Gloves"
+  ],
+  "hazards": [
+    "Weather",
+    "Slips"
+  ],
+  "createdAt": {
+    "$date": "2025-10-01T10:30:22.789Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-01T10:30:22.789Z"
+  },
+  "__v": 0
+}]
