@@ -20,6 +20,7 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
           source: "node_backend/*"
           target: "/home/ubuntu/site_safety_monitor"
 
@@ -29,7 +30,13 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
           script: |
             cd /home/ubuntu/site_safety_monitor
             npm install
-            pm2 restart all || pm2 start server.js --name "safety-backend"
+            # Make sure pm2 is installed globally
+            if ! command -v pm2 &> /dev/null; then
+              npm install -g pm2
+            fi
+            pm2 restart safety-backend || pm2 start server.js --name "safety-backend"
+        shell: bash
