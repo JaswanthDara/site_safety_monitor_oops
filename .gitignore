@@ -1,0 +1,28 @@
+# === node_backend (Express / Node.js backend) ===
+node_backend/node_modules/
+node_backend/.env
+node_backend/coverage/
+node_backend/logs/
+node_backend/*.log
+
+# === react_frontend (React frontend) ===
+react_frontend/node_modules/
+react_frontend/.env
+react_frontend/build/
+react_frontend/.cache/
+react_frontend/coverage/
+
+# === General (all environments) ===
+.DS_Store
+.env
+*.log
+
+# === IDE/editor ===
+.vscode/
+.idea/
+*.swp
+
+# === Yarn / npm debug logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
